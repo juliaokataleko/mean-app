@@ -1,0 +1,22 @@
+<div class="message">
+    
+    <div style="max-width: 700px;
+    margin: 0 auto;">
+    <span style="color:rgb(194, 206, 216);">{{email}} - 
+    </span> "{{quote}}" 
+    
+    <hr>
+    <div id="controls">
+        <input type="text" name="" value="{{quote}}" id="myQuote">
+        <input type="submit" 
+        style="background: rgb(148, 82, 82); 
+        border: 0;
+        color: rgb(255, 255, 255); 
+        padding: 10px;" 
+        value="Actualizar frase" (click)="updateQuote($event)">
+    </div>
+    <hr>
+    <a routerLink="/logout" class="button">Terminar sessão.</a>
+    </div>
+    
+</div>

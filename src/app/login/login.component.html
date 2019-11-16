@@ -1,0 +1,17 @@
+<form autocomplete="off" (submit)="loginUser($event)">
+    <div class="container2">
+        <h3 class="text-center">Iniciar sessão</h3>
+        <input type="text"  name="email" 
+        placeholder="Nome de usuário..." id="email">
+  
+        <input type="password"  name="password" 
+        placeholder="Palavra-passe..." id="password">
+
+        <p class="text-danger">{{error}}</p>
+        
+        <input type="submit" id="submit" value="Entrar"/>
+        <a routerLink="">Página inicial</a> 
+            <br>
+            <a routerLink="/register">Abrir Conta</a>
+    </div>
+</form>

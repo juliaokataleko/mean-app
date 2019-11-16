@@ -1,0 +1,21 @@
+<form autocomplete="off" (submit)="registerUser($event)">
+        <div class="container2">
+            <h3 class="text-center">Cria uma conta agora</h3>
+            <input type="text"  name="email" 
+            placeholder="Email..." id="email">
+      
+            <input type="password"  name="password" 
+            placeholder="Palavra-passe" id="password">
+
+            <input type="password"  name="cpassword" 
+            placeholder="Confirmar Palavra-passe" id="cpassword">
+            <br>
+            <div class="text-danger" *ngFor="let error of errors">{{error}}</div>
+            
+            <input type="submit" id="submit" value="Abrir conta"/>
+            <a routerLink="">Página inicial</a> 
+            <br>
+            <a routerLink="/login">Entrar</a>
+        </div>
+    </form>
+    

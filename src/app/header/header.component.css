@@ -1,0 +1,33 @@
+h1 {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+    margin: 0;
+    color: #ffffff;
+    position: fixed;
+    z-index: 1111;
+    width: 100%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.button {
+    padding: 12px;
+    color: white;
+    font-size: 26px;
+    border-radius: 10px;
+    background: black;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.button:hover {
+    background: white;
+    text-decoration: none;
+    color: black;
+}
